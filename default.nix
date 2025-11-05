@@ -12,7 +12,7 @@ let
 in
 stdenv.mkDerivation rec {
   pname = "anytype";
-  version = "0.33.3";
+  version = "0.50.5";
 
   src = fetchurl {
     url = "https://github.com/anyproto/anytype-ts/releases/download/v${version}/Anytype-${version}.AppImage";
