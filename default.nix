@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://github.com/anyproto/anytype-ts/releases/download/v${version}/Anytype-${version}.AppImage";
-    sha256 = "sha256-3qBd1WgHn/sfEyNRPTX5viMX3lVZPfsG6x7GfNwkL3E=";
+    sha256 = "sha256-WIj0FDVaKi5Dm89Crqd5qz1Dr2tMYl+jLMMVepqbSvY=";
     name = "${pname}-${version}.AppImage";
   };
 
